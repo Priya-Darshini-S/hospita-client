@@ -1,0 +1,28 @@
+#input_form  {
+    width: 30%;
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;  
+    border: 2px solid black;
+}
+#input_form > input, #input_form > select {
+    margin: 10px auto;
+    padding: 5px 20px;
+    font-size: 20px;
+    width: 80%;
+}
+#input_form > button {
+    width: 30%;
+    margin: auto;
+    background-color: black;
+    color: antiquewhite;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+}
+#input_form > label {
+    color:indianred;
+    font-size: 20px;
+    margin-top: 20px;
+}
